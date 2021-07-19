@@ -1,0 +1,41 @@
+h1 {
+    color: aqua
+}
+
+* {
+    /* border: solid;*/
+}
+
+.header {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: animationheder 5s infinite;
+    font-family: cursive ;
+}
+
+.all {
+    background-image: url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@keyframes animationheder {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    }
+}
